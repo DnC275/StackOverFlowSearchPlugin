@@ -1,3 +1,4 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/DnC275/StackOverFlowSearchPlugin)
 # StackOverFlowSearchPlugin
 Plugin for searching for questions on stackoverflow by selected text.
 
