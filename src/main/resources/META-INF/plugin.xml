@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>com.extension.DevTools_Lab5</id>
+    <name>StackOverFlowExtension</name>
+    <vendor email="275.denis@gmail.com">Denis</vendor>
+
+    <description>
+        <![CDATA[
+            Searching on stackoverflow, may be create a post in future
+        ]]>
+    </description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="SearchAction" class="com.intellij.stackoverflowsearch.SearchAction" text="TestAction"
+                description="Test select text in console">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl BACK_SLASH" second-keystroke="ctrl T"/>
+        </action>
+    </actions>
+</idea-plugin>
