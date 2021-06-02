@@ -20,8 +20,7 @@ Select a section of text and press `Ctrl+\, Ctrl+S`(exactly in that order!). Aft
     ```
 2. ### Linux/macOs
    Navigate into the cloned repository and run `./gradlew`. In the **build/distributions** directory, **.zip** file with plugin will be created.
-   
-   ###Windows
+   ### Windows
    Navigate into the cloned repository and run `gradlew`. In the **build/distributions** directory, **.zip** file with plugin will be created.
 
 ## Installing the plugin to Intellij Idea
