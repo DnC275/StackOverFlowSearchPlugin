@@ -1,4 +1,4 @@
-package com.intellij.stackoverflowsearch.response.impl;
+package com.intellij.stackoverflowsearch.response;
 
 import com.intellij.stackoverflowsearch.response.Response;
 
