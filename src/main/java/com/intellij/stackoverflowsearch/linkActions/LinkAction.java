@@ -1,4 +1,4 @@
-package com.intellij.stackoverflowsearch;
+package com.intellij.stackoverflowsearch.linkActions;
 
 import com.intellij.ide.BrowserUtil;
 import com.intellij.openapi.actionSystem.AnAction;

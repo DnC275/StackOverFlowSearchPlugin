@@ -1,8 +1,8 @@
 package com.intellij.stackoverflowsearch.request;
 
 import com.google.gson.*;
-import com.intellij.stackoverflowsearch.LinkAction;
-import com.intellij.stackoverflowsearch.QuestionLinkAction;
+import com.intellij.stackoverflowsearch.linkActions.LinkAction;
+import com.intellij.stackoverflowsearch.linkActions.QuestionLinkAction;
 import com.intellij.stackoverflowsearch.exceptions.ConnectionException;
 import com.intellij.stackoverflowsearch.exceptions.PluginException;
 import com.intellij.stackoverflowsearch.exceptions.URLException;

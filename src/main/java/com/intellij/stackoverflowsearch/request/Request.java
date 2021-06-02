@@ -1,6 +1,6 @@
 package com.intellij.stackoverflowsearch.request;
 
-import com.intellij.stackoverflowsearch.LinkAction;
+import com.intellij.stackoverflowsearch.linkActions.LinkAction;
 import com.intellij.stackoverflowsearch.exceptions.PluginException;
 
 import java.util.List;

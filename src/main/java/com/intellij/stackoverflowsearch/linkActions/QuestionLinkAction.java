@@ -1,11 +1,8 @@
-package com.intellij.stackoverflowsearch;
+package com.intellij.stackoverflowsearch.linkActions;
 
 import com.google.gson.*;
-import com.intellij.ide.BrowserUtil;
-import com.intellij.openapi.actionSystem.AnAction;
-import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.ui.Messages;
-import org.jetbrains.annotations.NotNull;
+import com.intellij.stackoverflowsearch.response.subobjects.Owner;
 
 import java.lang.reflect.Type;
 import java.net.MalformedURLException;
